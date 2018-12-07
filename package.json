@@ -1,0 +1,31 @@
+{
+  "name": "cae-cli",
+  "version": "1.0.0",
+  "description": "cae project manager",
+  "main": "bin/cli.js",
+  "repository": "https://github.com/RodeyManager/cae-cli.git",
+  "author": "Rodeyluo@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/cli.js create myapp",
+    "gc": "node ./bin/cli.js gc post index getPost"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.1",
+    "mkdirp": "^0.5.1",
+    "ora": "^3.0.0",
+    "yargs": "^12.0.5"
+  },
+  "engines": {
+    "nodejs": ">=8.0",
+    "npm": ">=5.5.0"
+  },
+  "devDependencies": {
+    "prompts": "^1.2.1"
+  }
+}
