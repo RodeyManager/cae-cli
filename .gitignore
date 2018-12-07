@@ -59,3 +59,14 @@ typings/
 
 # next.js build output
 .next
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+selenium-debug.log
+dist
+wp.json
+package-lock.json
+yarn.lock
+test.js
+temp.js

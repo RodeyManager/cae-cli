@@ -7,6 +7,7 @@ selenium-debug.log
 dist
 wp.json
 package-lock.json
+yarn.lock
 test.js
 temp.js
 
