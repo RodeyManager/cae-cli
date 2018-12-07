@@ -1,6 +1,6 @@
 {
   "name": "cae-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "cae project manager",
   "bin": {
     "cae": "./bin/cae.js"
