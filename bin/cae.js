@@ -1,4 +1,8 @@
+#!/usr/bin/env node
+
 'use strict';
+
+process.title = 'cae-cli';
 
 const program = require('commander');
 const chalk = require('chalk');
@@ -16,9 +20,6 @@ program
   .option('-v', chalk.green('use JavaScript or NodeJS view template engine ( nunjucks, ejs, jade )'))
   .option('-q', chalk.green('use database engine ( mysql, mongodb... )'))
   .option('-o', chalk.green('use database orm framwork ( sequelize, knex )'))
-  .option('-j', chalk.green('use JWT'))
-  .option('-s', chalk.green('use NodeJS session'))
-  .option('-r', chalk.green('use NodeJS redis'))
   .option('', '\n')
 
   // commands
