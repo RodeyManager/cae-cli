@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "cae project manager",
   "main": "bin/cli.js",
+  "bin": {
+    "cae": "./bin/cli.js"
+  },
+  "files": [
+    "bin"
+  ],
   "repository": "https://github.com/RodeyManager/cae-cli.git",
   "author": "Rodeyluo@gmail.com",
   "license": "MIT",
