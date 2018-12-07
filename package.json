@@ -9,6 +9,10 @@
   "files": [
     "bin"
   ],
+  "keywords": [
+    "cae", "koa", "nodejs", "framework"
+  ],
+  "homepage": "https://github.com/RodeyManager/cae-cli",
   "repository": "https://github.com/RodeyManager/cae-cli.git",
   "author": "Rodeyluo@gmail.com",
   "license": "MIT",
