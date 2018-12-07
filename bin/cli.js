@@ -2,13 +2,12 @@
 
 const program = require('commander');
 const chalk = require('chalk');
-const argv = require('yargs').argv;
 const {
   create,
   gc,
   gs,
   gm
-} = require('./create');
+} = require('../lib/create');
 
 
 program
